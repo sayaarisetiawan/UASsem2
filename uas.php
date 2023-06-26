@@ -1,8 +1,8 @@
 <?php 
-$jalan =13;
-$i =1;
-while ($i < $jalan) {
+$i =0;
+for ($i=0;$i<=10;$i++) {
+    if ($i==4)
+    {continue;}
     echo "$i";
-    $i +=2;
 }
-// output proram adalah 1357911
+// output proram adalah 012345678910
