@@ -1,7 +1,13 @@
 <?php 
-//di bawah ini adalah sebuah function bernama 'hallo' yagn berisi perintah untuk menampilkan kalimat "Hello world!"
-function hallo(){
-    echo "Hello world!";
+$x =1;
+while ($x <=5) {
+    echo "Nomor Urut : $x <br>";
+    $x++;
 }
-hallo();//memanggil function hallo untuk menampilkan isi function tersebut
 ?>
+<!-- program memiliki output
+Nomor Urut : 1
+Nomor Urut : 2
+Nomor Urut : 3
+Nomor Urut : 4
+Nomor Urut : 5 -->
