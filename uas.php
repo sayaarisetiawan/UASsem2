@@ -1,7 +1,7 @@
 <?php 
-$x =1;
-do {
-    echo $x."";
-    $x++;
-} while ($x >2);
-// output proram adalah 1
+//di bawah ini adalah sebuah function bernama 'hallo' yagn berisi perintah untuk menampilkan kalimat "Hello world!"
+function hallo(){
+    echo "Hello world!";
+}
+hallo();//memanggil function hallo untuk menampilkan isi function tersebut
+?>
