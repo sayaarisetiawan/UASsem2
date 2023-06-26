@@ -1,7 +1,6 @@
 <?php 
-echo (min(0, 150, 30, 20, -8, -200). "<br>");
-echo (max(0, 150, 30, 20, -8, -200));
+$cars = array("VOLVO", "BMW", "TOYOTA");
+echo "I like " . $cars[1] . ", " . $cars[2] . " and " . $cars[0] . ".";
 ?>
-<!-- ouput program 
--200
-150 -->
+<!-- output Program
+I like BMW, TOYOTA and VOLVO. -->
